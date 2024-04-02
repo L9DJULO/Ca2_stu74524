@@ -1,5 +1,8 @@
 # Ca2_stu74524
 Jules Lange n 74524
+
+Find the full report in the root folder on : Full Report Mobille App .pdf
+
 Introduction:
 
 This report encapsulates the journey of developing a mobile application for cinema seat reservations. Initiated with the goal of creating an intuitive interface for users, enabling seat selection for four different movies, the project encountered and surmounted various challenges. From understanding multifaceted challenges to implementing solutions, the process is detailed below.
