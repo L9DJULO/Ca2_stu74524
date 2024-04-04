@@ -144,11 +144,7 @@ fun Screen4(navController: NavController) {
                         },
                         enabled = seatsSelected.value > 0
                     ) {
-                        Icon(
-                            imageVector = Icons.Filled.Delete,
-                            contentDescription = "Remove Seat",
-                            tint = Color.Black
-                        )
+                        Icon(painter = painterResource(id = R.drawable.minus), contentDescription = "minus")
                     }
                     Text(
                         text = "${seatsSelected.value}",

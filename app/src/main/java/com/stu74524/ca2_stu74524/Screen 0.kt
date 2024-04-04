@@ -3,6 +3,7 @@ package com.stu74524.ca2_stu74524
 import android.media.Image
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -96,10 +97,11 @@ fun MovieBox(seats : Int,movie: Movie, buttonAction: () -> Unit) {
     movie.seatsSelected = seats
     Box(
         modifier = Modifier
+            .clickable(onClick = buttonAction)
             .height(300.dp)
             .width(185.dp)
             .background(color = Color(0xFFA2A9D3), shape = RoundedCornerShape(8.dp)),
-        contentAlignment = Alignment.Center
+        contentAlignment = Alignment.Center,
     ) {
         Column(
             verticalArrangement = Arrangement.Center,
@@ -112,7 +114,7 @@ fun MovieBox(seats : Int,movie: Movie, buttonAction: () -> Unit) {
                 text = movie.name,
                 color = Color.White,
             )
-            Image(modifier = Modifier.size(200.dp),painter = painterResource(id = movie.image), contentDescription ="Movie Preview" )
+            Image(modifier = Modifier.size(200.dp),painter = painterResource(id = movie.image), contentDescription ="Movie Preview")
             if (movie.seatsSelected > 0) {
                 Text(
                     modifier = Modifier.padding(vertical = 4.dp),
