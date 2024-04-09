@@ -1,17 +1,24 @@
 # Ca2_stu74524
 Jules Lange n 74524
-[x] 1.1. Create a Movie class with the structure specified in movie.json
-[X] 1.2. Obtain and fill data (minimum of 4 movies)
-[X] 1.2.1. Obtain relevant movie data from Vue (https://www.myvue.com/cinema/dublin/whats-on) or your favourite provider and add data credits at the bottom of the app
-[X] 1.2.2. Generate a random number between 0 and 15 for each movie and assign to seats_remaining
-[X] 1.2.3. Start with an initial default seats_selected value of 0 for all movies
-[] 1.2.4. You shall fill random URLs for images from pixabay or other free image providers to begin with
-[X] 1.4. If any seats are selected, show how many seats are selected and hide remaining seats
-[X] 2.1. Clicking any item (anywhere on the item) on the movie screen should open a new MovieActivity, refer to movie_activity_*.jpg
-[X] 2.2. Add plus and minus icons, show seats_selected in the middle
-[X] 2.3. On click plus/minus, update both seats_selected and seats_remaining for that movie
-[X] 2.4. Add validation, when 0 seats selected minus is disabled, when 0 seats remaining plus is disabled
-[X] 2.5. When back is pressed, the selected seats are retained and reflected in the screen. (Hint: If you don’t see any updates, call adapter notifyItemChanged as soon as you return to the screen activity)
+<ul> 
+  <li>- [x] Movie class created with structure from movie.json</li>
+  <li>- [x] Data filled for at least 4 movies, including relevant movie data obtained from <a href="https://www.imdb.com/">imbd</a></li>
+  <li>- [x] Random number generated between 0 and 15 for seats_remaining for each movie</li>
+  <li>- [x] Initial default seats_selected value set to 0 for all movies</li>
+  <li>- [x] Show number of selected seats and hide remaining seats when seats are selected</li>
+  <li>- [x] Clicking any item on the movie screen opens a new MovieActivity</li>
+  <li>- [x] Plus and minus icons added, seats_selected displayed in the middle</li>
+  <li>- [x] Seats_selected and seats_remaining updated on plus/minus click</li>
+  <li>- [x] Validation added to disable minus when 0 seats selected and disable plus when 0 seats remaining</li>
+  <li>- [x] Retain selected seats and reflect them on the screen when back is pressed</li>
+  <li>- [x] Added "filling fast" badge if less than 3 seats remaining</li>
+  <li>- [] Used "Roboto Condensed" font to replicate same style</li>
+  <li>- [] Used original movie images from <a href="http://www.impawards.com/">impawards</a></li>
+  <li>- [x] README.md file included with name and student ID</li>
+  <li>- [x] Git repository set to public and README.md with Name, Student ID and requirements checklist (with ticks)</li>
+  <li>- [x] Video screencast link provided</li>
+  <li>- [x] Added release with app-debug.apk file (located in the root) in the repository</li>
+</ul>
 
 Find the full report in the root folder on : Full Report Mobille App .pdf
 
