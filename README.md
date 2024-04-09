@@ -1,5 +1,17 @@
 # Ca2_stu74524
 Jules Lange n 74524
+[x] 1.1. Create a Movie class with the structure specified in movie.json
+[X] 1.2. Obtain and fill data (minimum of 4 movies)
+[X] 1.2.1. Obtain relevant movie data from Vue (https://www.myvue.com/cinema/dublin/whats-on) or your favourite provider and add data credits at the bottom of the app
+[X] 1.2.2. Generate a random number between 0 and 15 for each movie and assign to seats_remaining
+[X] 1.2.3. Start with an initial default seats_selected value of 0 for all movies
+[] 1.2.4. You shall fill random URLs for images from pixabay or other free image providers to begin with
+[X] 1.4. If any seats are selected, show how many seats are selected and hide remaining seats
+[X] 2.1. Clicking any item (anywhere on the item) on the movie screen should open a new MovieActivity, refer to movie_activity_*.jpg
+[X] 2.2. Add plus and minus icons, show seats_selected in the middle
+[X] 2.3. On click plus/minus, update both seats_selected and seats_remaining for that movie
+[X] 2.4. Add validation, when 0 seats selected minus is disabled, when 0 seats remaining plus is disabled
+[X] 2.5. When back is pressed, the selected seats are retained and reflected in the screen. (Hint: If you don’t see any updates, call adapter notifyItemChanged as soon as you return to the screen activity)
 
 Find the full report in the root folder on : Full Report Mobille App .pdf
 
